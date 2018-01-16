@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="page__title">现在收听</view>
+  <view>
+    <view class="podcast-item" wx:for="{{podcasts}}" wx:key="id">
+      <view class="podcast-left">
+        <image class="episode-image" mode="{{item.imgUrl}}" src="{{item.imgUrl}}"></image>
+      </view>
+      <view class="podcast-right">
+        <view class="episode-date">{{item.date}}</view>
+        <view class="episode-title">{{item.title}}</view>
+        <view class="episode-summary">{{item.summary}}</view>
+      </view>
+      
+      
+    </view>
+  </view>
+</view>

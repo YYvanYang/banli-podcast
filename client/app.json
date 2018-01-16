@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/search/search"
+  ],
+  "tabBar": {
+    "color": "#a2a2a2",
+    "selectedColor": "#6929d0",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "img/classify.png",
+        "selectedIconPath": "img/sel-classify.png",
+        "text": "现在收听"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "img/search.png",
+        "selectedIconPath": "img/sel-search.png",
+        "text": "搜索"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "板栗播客",
+    "navigationBarTextStyle": "black"
+  }
+}

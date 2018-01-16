@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+.podcast-item {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.podcast-left {
+  flex: 1 0 auto;
+  margin-right: 20rpx;
+}
+
+.podcast-right {
+  flex: 1 1 auto;
+
+}
+  
+
+.episode-image {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 8rpx;
+  background-color: #eee;
+}
+
+.episode-date {
+  color: #6929d0;
+  font-size: 30rpx;
+}
+
+.episode-title {
+  color: #000;
+  font-size: 50rpx;
+}
+
+.episode-summary {
+  color: #8e8e93;
+  font-size: 40rpx;
+}
