@@ -1,24 +1,4 @@
 /* pages/episode/episode.wxss */
 .episode-header {
   width: 100%;
-  display: flex;
-  box-sizing: border-box;
-}
-
-.episode-image {
-  width: 150rpx;
-  height: 150rpx;
-  border-radius: 8rpx;
-  background-color: #eee;
-  margin-right: 20rpx;
-}
-
-.episode-date {
-  color: #6929d0;
-  font-size: 30rpx;
-}
-
-.episode-title {
-  color: #000;
-  font-size: 50rpx;
 }

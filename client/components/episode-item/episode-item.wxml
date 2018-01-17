@@ -1,0 +1,11 @@
+<!--components/episode-item.wxml-->
+<view class="episode-item">
+  <view class="episode-left">
+    <image class="episode-image" src="{{episode.imgUrl}}"></image>
+  </view>
+  <view class="episode-right">
+    <view class="episode-date">{{episode.date}}</view>
+    <view class="episode-title">{{episode.title}}</view>
+    <view class="episode-summary" wx:if="{{episode.summary}}">{{episode.summary}}</view>
+  </view>
+</view>

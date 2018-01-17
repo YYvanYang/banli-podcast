@@ -12,7 +12,7 @@ Page({
       imgUrl: "https://hw1.thisamericanlife.org/sites/default/files/styles/app_thumbnail/public/episodes/images/chip_in_the_brain-owen_freeman.jpg?itok=I3D2QBpq",
       date: fromNow(new Date()),
       title: "Harold",
-      summary: "The story of Harold Washington",
+
       mp3: "https://podcast.thisamericanlife.org/podcast/635.mp3",
       total: "another 56"
     },

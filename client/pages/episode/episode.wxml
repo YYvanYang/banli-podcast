@@ -1,13 +1,9 @@
 <!--pages/episode/episode.wxml-->
 <view class="container">
   <view class="episode-header">
-    <image class="episode-image" src="{{episode.imgUrl}}"></image>
-    <view>
-       <view class="episode-date">{{episode.date}}</view>
-       <view class="episode-title">{{episode.title}}</view>
-    </view>
+    <episode-item episode="{{episode}}"></episode-item>
   </view>
-  <text>{{text}}</text>
+  <text selectable="true">{{text}}</text>
 
 
 </view>
