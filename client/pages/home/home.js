@@ -1,6 +1,6 @@
 // pages/home/home.js
 var {fromNow} = require('../../utils/util.js')
-console.log('from now:', fromNow)
+
 Page({
 
   /**
@@ -28,7 +28,7 @@ Page({
       },
       {
         id: 3,
-        imgUrl: "https://hw1.thisamericanlife.org/sites/default/files/styles/landscape/public/episodes/images/chip_in_the_brain-owen_freeman.jpg?itok=VH9SIDf6",
+        imgUrl: "https://hw1.thisamericanlife.org/sites/default/files/styles/app_thumbnail/public/episodes/images/chip_in_the_brain-owen_freeman.jpg?itok=I3D2QBpq",
         date: fromNow(new Date(2017, 12, 11)),
         title: "Harold",
         summary: "The story of Harold Washington",
@@ -110,5 +110,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  goEpisode: function (event) {
+    console.log('event:', event)
+    let id = event.currentTarget.dataset.episode.id
+    wx.navigateTo({
+      url: `../episode/episode?id=${id}`
+    })
   }
 })

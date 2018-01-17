@@ -1,0 +1,13 @@
+<!--pages/episode/episode.wxml-->
+<view class="container">
+  <view class="episode-header">
+    <image class="episode-image" src="{{episode.imgUrl}}"></image>
+    <view>
+       <view class="episode-date">{{episode.date}}</view>
+       <view class="episode-title">{{episode.title}}</view>
+    </view>
+  </view>
+  <text>{{text}}</text>
+
+
+</view>

@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/index/index",
     "pages/addCgi/addCgi",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/episode/episode"
   ],
   "tabBar": {
     "color": "#a2a2a2",
@@ -11,8 +12,8 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "iconPath": "img/classify.png",
-        "selectedIconPath": "img/sel-classify.png",
+        "iconPath": "img/play.png",
+        "selectedIconPath": "img/sel-play.png",
         "text": "现在收听"
       },
       {
